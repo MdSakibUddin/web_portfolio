@@ -113,6 +113,7 @@ main{
 .about-me{
     border-radius: 10px;
     padding: 130px 150px;
+    margin-top: 136px;
     text-align:center;
 }
 .about-items{
@@ -136,3 +137,46 @@ main{
 .skill-description{
     color: #757575;
 }
+
+/* Styles for resume container */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color:#757575
+}
+.experience-sub-title{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px ;
+}
+ /* Styles for footer */
+ footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+ }
+ .footer-column{
+    width: 50%;
+ }
+
+ footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+ }
+
